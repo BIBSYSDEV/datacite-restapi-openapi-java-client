@@ -22,12 +22,22 @@ task buildDataciteRestApiClient(type: org.openapitools.generator.gradle.plugin.t
     generateModelTests = false
     generateApiTests = false
     library = "native"
+    groupId = "no.unit.openapi.datacite.restapi"
 
 
     configOptions = [
         dateLibrary: "java8",
         java8: "true",
         hideGenerationTimestamp: "true",
+
+        artifactId: "library-native-client",
+
+       // developerName: "UNIT developers",
+        gitHost: "git@github.com:BIBSYSDEV/datacite-restapi-openapi-java-client.git",
+        gitUserId: "BIBSYSDEV",
+        gitRepoId: "datacite-restapi-openapi-java-client"
+
+
     ]
 }
 
