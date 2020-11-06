@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e 
 scm_repo_client="git@github.com:BIBSYSDEV/datacite-restapi-openapi-java-client.git"
+scm_repo_client_url="https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client"
 
 updateReleases() {
  IFS=$'\n' read -r -d '' -a releases < <( git branch \
@@ -51,14 +52,14 @@ Currently generated versions you can see below.
 
 EOF
    for release in "${releases[@]}"; do
-     echo "* [${release}](https://github.com/norrs/testrepo/tree/${release}) released at ${timestamp}" >> README.md
+     echo "* [${release}](${scm_repo_client_url}/tree/${release}) released at ${timestamp}" >> README.md
    done
    git add README.md
    git commit \
 	   -m "Release of ${version}" \
 	   \
 	   -m "Source lives in branch ${version}" \
-	   -m "Url: https://github.com/norrs/testrepo/tree/${version}" \
+	   -m "Url: ${scm_repo_client_url}/tree/${release}" \
 	   -m "Date: ${timestamp}"
    git push origin main
  )
