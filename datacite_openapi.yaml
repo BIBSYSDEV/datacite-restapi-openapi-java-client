@@ -1263,6 +1263,8 @@ components:
                         items:
                           type: object
                           properties:
+                            name:
+                              type: string
                             affiliationIdentifier:
                               type: string
                             affiliationIdentifierScheme:
