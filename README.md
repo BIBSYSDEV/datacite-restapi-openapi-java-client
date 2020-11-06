@@ -10,4 +10,4 @@ Currently generated versions you can see below.
 
 # Released versions 
 
-* [2.3.0](https://github.com/norrs/testrepo/tree/2.3.0) released at Fri 06 Nov 2020 10:00:06 AM CET
+* [2.3.0-2-g4687760c20eb](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-2-g4687760c20eb) released at Fri 06 Nov 2020 10:07:07 AM CET
