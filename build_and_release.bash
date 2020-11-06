@@ -26,6 +26,9 @@ main() {
    git checkout -b "${version}"
    git add . 
    git commit -m "Generated from ${version}"
+   sed -i '/testCompile "junit:junit:$junit_version"/a compile "org.openapitools:jackson-databind-nullable:0.2.1"' "${output}/generated/build.gradle"
+   git add .
+   git commit -m "patch jackson-databind-nullable" -m "${version} patched with jackson-databind-nullable dependency"
    git remote add origin "${repo}"
    git push origin "HEAD:${version}"
  )
