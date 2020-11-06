@@ -1193,6 +1193,8 @@ components:
                         type: string
                 publisher:
                   type: string
+                xml:
+                  type: string
                 container:
                   readOnly: true
                   type: object
