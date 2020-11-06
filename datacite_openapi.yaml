@@ -86,7 +86,7 @@ paths:
         '200':
           description: A JSON API result of activities.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Activity'
   '/activities/{id}':
@@ -105,7 +105,7 @@ paths:
         '200':
           description: A JSON object.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Activity'
   /client-prefixes:
@@ -147,7 +147,7 @@ paths:
         '200':
           description: A JSON array of client-prefixes.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/ClientPrefix'
   /clients:
@@ -215,7 +215,7 @@ paths:
         '200':
           description: A JSON array of clients.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Client'
     post:
@@ -225,7 +225,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Client'
       responses:
@@ -266,7 +266,7 @@ paths:
         '200':
           description: A JSON object.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Client'
     put:
@@ -283,7 +283,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Client'
       responses:
@@ -397,7 +397,7 @@ paths:
         '200':
           description: A JSON array of dois.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Doi'
     post:
@@ -407,7 +407,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Doi'
       responses:
@@ -430,7 +430,7 @@ paths:
         '200':
           description: A JSON object.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Doi'
     put:
@@ -447,7 +447,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Doi'
       responses:
@@ -485,7 +485,7 @@ paths:
         '200':
           description: A JSON object.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Activity'
   /events:
@@ -582,7 +582,7 @@ paths:
         '200':
           description: A JSON array of events.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Event'
       tags:
@@ -594,7 +594,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Event'
       responses:
@@ -617,7 +617,7 @@ paths:
         '200':
           description: A JSON array of events.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Event'
     put:
@@ -634,7 +634,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Event'
       responses:
@@ -685,7 +685,7 @@ paths:
         '200':
           description: A JSON array of prefixes.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Prefix'
   /prefixes/totals:
@@ -723,7 +723,7 @@ paths:
         '200':
           description: Returns a prefix.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Prefix'
   /provider-prefixes:
@@ -735,7 +735,7 @@ paths:
         '200':
           description: A JSON array of provider-prefixes.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/ProviderPrefix'
   /providers:
@@ -806,7 +806,7 @@ paths:
         '200':
           description: A JSON array of prefixes.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Provider'
     post:
@@ -816,7 +816,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Provider'
       responses:
@@ -852,7 +852,7 @@ paths:
         '200':
           description: A JSON object.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Provider'
     put:
@@ -869,7 +869,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Provider'
       responses:
@@ -945,7 +945,7 @@ paths:
         '200':
           description: A JSON array of reports.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Report'
     post:
@@ -955,7 +955,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Report'
       responses:
@@ -977,7 +977,7 @@ paths:
         '200':
           description: A JSON object.
           content:
-            application/vnd.api+json:
+            application/vnd.datacite.datacite+json:
               schema:
                 $ref: '#/components/schemas/Report'
     put:
@@ -994,7 +994,7 @@ paths:
       requestBody:
         required: true
         content:
-          application/vnd.api+json:
+          application/vnd.datacite.datacite+json:
             schema:
               $ref: '#/components/schemas/Report'
       responses:
