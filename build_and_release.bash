@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e 
-scm_repo_client="git@github.com:norrs/testrepo.git"
+scm_repo_client="git@github.com:BIBSYSDEV/datacite-restapi-openapi-java-client.git"
 
 updateReleases() {
  IFS=$'\n' read -r -d '' -a releases < <( git branch \
