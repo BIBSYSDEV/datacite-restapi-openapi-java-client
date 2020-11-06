@@ -10,7 +10,8 @@ Currently generated versions you can see below.
 
 # Released versions 
 
-* [2.3.0-8-g4ebfb6274e50](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-8-g4ebfb6274e50) released at Fri 06 Nov 2020 06:58:17 PM CET
-* [2.3.0-5-g1949d4d0f9d4](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-5-g1949d4d0f9d4) released at Fri 06 Nov 2020 06:58:17 PM CET
-* [2.3.0-12-g37d2f16c6a6f](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-12-g37d2f16c6a6f) released at Fri 06 Nov 2020 06:58:17 PM CET
-* [2.3.0-10-gfa5f21755c4e](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-10-gfa5f21755c4e) released at Fri 06 Nov 2020 06:58:17 PM CET
+* [2.3.0-8-g4ebfb6274e50](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-8-g4ebfb6274e50) released at Fri 06 Nov 2020 07:30:13 PM CET
+* [2.3.0-5-g1949d4d0f9d4](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-5-g1949d4d0f9d4) released at Fri 06 Nov 2020 07:30:13 PM CET
+* [2.3.0-14-g5cd2b3e61532](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-14-g5cd2b3e61532) released at Fri 06 Nov 2020 07:30:13 PM CET
+* [2.3.0-12-g37d2f16c6a6f](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-12-g37d2f16c6a6f) released at Fri 06 Nov 2020 07:30:13 PM CET
+* [2.3.0-10-gfa5f21755c4e](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-10-gfa5f21755c4e) released at Fri 06 Nov 2020 07:30:13 PM CET
