@@ -10,4 +10,4 @@ Currently generated versions you can see below.
 
 # Released versions 
 
-* [2.3.0-2-g4687760c20eb](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-2-g4687760c20eb) released at Fri 06 Nov 2020 10:07:07 AM CET
+* [2.3.0-5-g1949d4d0f9d4](https://github.com/BIBSYSDEV/datacite-restapi-openapi-java-client/tree/2.3.0-5-g1949d4d0f9d4) released at Fri 06 Nov 2020 02:42:05 PM CET
